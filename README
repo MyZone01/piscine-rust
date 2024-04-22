@@ -1,1 +1,16 @@
 # 🦀 PISCINE RUST
+
+## USEFULL COMMAND
+To create a new rust project:
+```bash
+$ cargo new "exercice-name"
+```
+or use the following command to create it as a library:
+```bash
+$ cargo new --lib "exercice-name"
+```
+
+To launch the automated testing of a completed exercice:
+```bash
+$ ./test.sh "exercice-name"
+```
