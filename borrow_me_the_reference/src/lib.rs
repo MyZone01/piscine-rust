@@ -1,14 +1,43 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
+pub fn delete_and_backspace(s: &mut String) {
+    let mut result = String::new();
+    let mut skip = 0;
+
+    for (i, ch) in s.chars().enumerate() {
+        if skip == 0 && ch != '+' {
+            if ch == '-' {
+                result.pop();
+            } else {
+                result.push(ch)
+            }
+        } else if ch == '+' {
+            skip += 1;
+        } else {
+            skip -= 1;
+        }
+    }
+
+    *s = result;
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+pub fn do_operations(v: &mut Vec<String>) {
+    for s in v.iter_mut() {
+        let res = operation(s.to_string());
+        *s = res;
     }
+}
+
+pub fn operation(s: String) -> String {
+    let mut res = String::new();
+
+    if s.contains('+') {
+        let mut operators: Vec<i32> = s.split('+').map(|s| s.parse::<i32>().unwrap()).collect();
+        let ires = operators[0] + operators[1];
+        res = ires.to_string()
+    } else if s.contains('-') {
+        let mut operators: Vec<i32> = s.split('-').map(|s| s.parse::<i32>().unwrap()).collect();
+        let ires = operators[0] - operators[1];
+        res = ires.to_string()
+    }
+
+    res
 }
