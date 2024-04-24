@@ -1,4 +1,5 @@
-*/target
-*/Cargo.lock
-*/src/main
+target
+Cargo.lock
+src/main
 foo/
+looping/src/main
