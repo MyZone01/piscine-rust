@@ -1,3 +1,3 @@
 [workspace]
 
-members = ["scalar", "temperature_conv", "speed_transformation", "looping", "groceries", "reverse_string", "find_factorial", "fibonacci2", "matrix_transposition", "division_and_remainder", "tuples_refs", "borrow", "doubtful", "to_url", "string_literals", "name_initials", "ownership", "copy", "borrow_me_the_reference", "tic_tac_toe", "arrange_it", "changes", "reverse_it", "bigger", "capitalizing", "circle", "card_deck",]
+members = ["scalar", "temperature_conv", "speed_transformation", "looping", "groceries", "reverse_string", "find_factorial", "fibonacci2", "matrix_transposition", "division_and_remainder", "tuples_refs", "borrow", "doubtful", "to_url", "string_literals", "name_initials", "ownership", "copy", "borrow_me_the_reference", "tic_tac_toe", "arrange_it", "changes", "reverse_it", "bigger", "capitalizing", "circle", "card_deck", "arrays",]
