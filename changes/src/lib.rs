@@ -1,4 +1,3 @@
-    
 #[derive(Debug, Eq, PartialEq, Clone)]
 pub struct Light {
     pub alias: String,
