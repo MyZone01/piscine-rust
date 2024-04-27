@@ -1,15 +1,19 @@
 pub fn capitalize_first(input: &str) -> String {
-    let mut result = String::new();
+    // let mut result = String::new();
 
-    for (i, c) in input.chars().enumerate() {
-        if i == 0 {
-            result.push(c.to_uppercase().next().unwrap());
-        } else {
-            result.push(c);
-        }
+    // for (i, c) in input.chars().enumerate() {
+    //     if i == 0 {
+    //         result.push(c.to_uppercase().next().unwrap());
+    //     } else {
+    //         result.push(c);
+    //     }
+    // }
+
+    // result
+    if input.is_empty() {
+        return input.to_string();
     }
-
-    result
+    input.chars().next().unwrap().to_uppercase().to_string() + &input[1..].to_string()
 }
 
 pub fn title_case(input: &str) -> String {
