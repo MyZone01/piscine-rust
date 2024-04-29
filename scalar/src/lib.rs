@@ -5,6 +5,8 @@
 // 64-bit	i64	    u64      -9223372036854775808 to 9223372036854775807 or 0 to 18446744073709551615
 // 128-bit	i128	u128     -170141183460469231731687303715884105728 to 170141183460469231731687303715884105727 or 0 to 340282366920938463463374607431768211455
 
+// The return keyword is not required to return a variable out of a function. You can just write the expression to return without a semicolon at the end
+
 pub fn sum(a: u8, b: u8) -> u8 {
     a + b
 }
