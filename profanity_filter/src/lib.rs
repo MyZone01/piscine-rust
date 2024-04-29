@@ -1,11 +1,11 @@
 pub struct Message {
     content: String,
-    user: String,
+    _user: String,
 }
 
 impl Message {
-    pub fn new(content: String, user: String) -> Message {
-        Message { content, user }
+    pub fn new(content: String, _user: String) -> Message {
+        Message { content, _user }
     }
 
     pub fn send_ms(&self) -> Option<&str> {
