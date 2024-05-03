@@ -36,24 +36,22 @@
 // $
 
 pub fn scytale_cipher(message: String, i: u32) -> String {
-    let mut len = message.len();
-    let message = if len as u32 % i == 0 {
+    let len = message.len();
+    let padded_message = if len % i as usize == 0 {
         message.chars().collect::<Vec<char>>()
     } else {
-        (message + &" ".repeat((i - len as u32 % i) as usize))
+        (message + &" ".repeat(i as usize - len % i as usize))
             .chars()
             .collect::<Vec<char>>()
     };
-    len = message.len();
+    let len = padded_message.len();
     let mut result = String::new();
-    let mut j = 0;
-    while j < i {
+    for j in 0..i {
         let mut k = j;
         while k < len as u32 {
-            result.push(message[k as usize]);
+            result.push(padded_message[k as usize]);
             k += i;
         }
-        j += 1;
     }
     result.trim().to_string()
 }
