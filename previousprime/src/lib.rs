@@ -34,30 +34,38 @@
 // $
 // ```
 
+// pub fn prev_prime(nbr: u64) -> u64 {
+//     if nbr < 2 {
+//         return 0;
+//     }
+//     let mut i = nbr - 1;
+//     while i > 1 {
+//         if is_prime(i) {
+//             return i;
+//         }
+//         i -= 1;
+//     }
+//     0
+// }
+
+// fn is_prime(num: u64) -> bool {
+//     if num <= 1 {
+//         return false;
+//     }
+
+//     for i in 2..=(num as f64).sqrt() as u64 {
+//         if num % i == 0 {
+//             return false;
+//         }
+//     }
+
+//     true
+// }
+
 pub fn prev_prime(nbr: u64) -> u64 {
-    if nbr < 2 {
-        return 0;
-    }
-    let mut i = nbr - 1;
-    while i > 1 {
-        if is_prime(i) {
-            return i;
-        }
-        i -= 1;
-    }
-    0
+    (2..nbr).rev().find(|&i| is_prime(i)).unwrap_or(0)
 }
 
-fn is_prime(num: u64) -> bool {
-    if num <= 1 {
-        return false;
-    }
-
-    for i in 2..=(num as f64).sqrt() as u64 {
-        if num % i == 0 {
-            return false;
-        }
-    }
-
-    true
+pub fn is_prime(num: u64) -> bool {
+    (2..=(num as f64).sqrt() as u64).all(|i| num % i != 0)
 }

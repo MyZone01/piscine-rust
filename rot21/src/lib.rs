@@ -51,7 +51,7 @@ pub fn rot21(input: &str) -> String {
         .map(|c| {
             if c.is_alphabetic() {
                 let base = if c.is_lowercase() { b'a' } else { b'A' };
-                (((c as u8 - base + 21) % 26 + 26) % 26 + base) as char
+                (c as u8 + 21) as char
             } else {
                 c
             }

@@ -1,5 +1,9 @@
 pub fn factorial(num: u64) -> u64 {
-    factorial_fold(num)
+    factorial_easy(num)
+}
+
+pub fn factorial_easy(n: u64) -> u64 {
+    (1..=n).product()
 }
 
 pub fn factorial_iterative(num: u64) -> u64 {
@@ -26,5 +30,5 @@ pub fn factorial_recursive_with_match(num: u64) -> u64 {
 }
 
 pub fn factorial_fold(num: u64) -> u64 {
-    (1..num + 1).fold(1, |acc, n| acc * n)
+    (1..num + 1).product::<u64>()
 }

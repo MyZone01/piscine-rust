@@ -35,7 +35,6 @@
 // $
 
 pub fn talking(text: &str) -> &str {
-    println!("{}", text);
     match text {
         t if t.trim() == "" => "Just say something!",
         t if t.chars().any(|c| c.is_alphabetic())

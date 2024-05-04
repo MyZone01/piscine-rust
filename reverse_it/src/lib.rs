@@ -22,10 +22,9 @@
 // }
 
 pub fn reverse_it(v: i32) -> String {
-    let rev = v.abs().to_string();
+    let nbr_string = v.abs().to_string();
     if v < 0 {
-        "-".to_string() + &rev.chars().rev().collect::<String>() + &rev
-    } else {
-        rev.chars().rev().collect::<String>() + &rev
+        return "-".to_string() + &nbr_string.chars().rev().collect::<String>() + &nbr_string;
     }
+    nbr_string.chars().rev().collect::<String>() + &nbr_string
 }
