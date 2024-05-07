@@ -15,10 +15,7 @@ pub fn split_at(v: &str, mid: usize) -> (&str, &str) {
 }
 
 pub fn find(v: &str, needle: char) -> usize {
-    match v.find(needle) {
-        Some(i) => i,
-        None => 0,
-    }
+    v.find(needle).unwrap_or(0)
 }
 
 pub fn find_with_unwrap(v: &str, needle: char) -> usize {

@@ -4,7 +4,7 @@ pub fn expected_variable(s1: &str, s2: &str) -> Option<String> {
     let is_camel_case =
         s1.chars().any(|c| c.is_ascii_uppercase()) && s1.chars().any(|c| c.is_ascii_lowercase());
     let is_snake_case = s1.contains('_');
-    if (!is_camel_case && !is_snake_case) || s1.contains(" ") {
+    if (!is_camel_case && !is_snake_case) || s1.contains(' ') {
         return None;
     }
 

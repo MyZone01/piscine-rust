@@ -107,7 +107,7 @@ pub struct Queen {
 
 impl ChessPosition {
     pub fn new(rank: i32, file: i32) -> Option<Self> {
-        if rank >= 0 && rank <= 7 && file >= 0 && file <= 7 {
+        if (0..=7).contains(&rank) && (0..=7).contains(&file) {
             Some(ChessPosition { rank, file })
         } else {
             None

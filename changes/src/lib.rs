@@ -13,7 +13,7 @@ impl Light {
     }
 }
 
-pub fn change_brightness(lights: &mut Vec<Light>, alias: &str, value: u8) {
+pub fn change_brightness(lights: &mut [Light], alias: &str, value: u8) {
     if let Some(light) = lights.iter_mut().find(|light| light.alias == alias) {
         light.brightness = value;
     }

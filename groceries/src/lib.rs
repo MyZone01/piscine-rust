@@ -3,7 +3,7 @@ pub fn insert(vec: &mut Vec<String>, item: String) {
     vec.push(item);
 }
 
-pub fn at_index(vec: &Vec<String>, index: usize) -> String {
+pub fn at_index(vec: &[String], index: usize) -> String {
     // let item = vec.get(index);
     // match item {
     //     Some(value) => value.to_string(),

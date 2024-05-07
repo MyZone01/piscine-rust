@@ -2,10 +2,10 @@ pub fn edit_distance(source: &str, target: &str) -> usize {
     let len_source = source.chars().count();
     let len_target = target.chars().count();
 
-    let mut dp: Vec<Vec<usize>> = vec![vec![0 as usize; len_target + 1]; len_source + 1];
+    let mut dp: Vec<Vec<usize>> = vec![vec![0_usize; len_target + 1]; len_source + 1];
 
-    for i in 1..(len_source + 1) {
-        dp[i][0] = i;
+    for (i, dp_i) in dp.iter_mut().enumerate().skip(1) {
+        dp_i[0] = i;
     }
 
     for j in 1..(len_target + 1) {

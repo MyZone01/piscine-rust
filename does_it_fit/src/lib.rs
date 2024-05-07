@@ -2,12 +2,12 @@ pub mod areas_volumes;
 pub use crate::areas_volumes::*;
 
 pub fn area_fit(
-	x: usize,
-	y: usize,
-	objects: areas_volumes::GeometricalShapes,
-	times: usize,
-	a: usize,
-	b: usize,
+    x: usize,
+    y: usize,
+    objects: areas_volumes::GeometricalShapes,
+    times: usize,
+    a: usize,
+    b: usize,
 ) -> bool {
     let rectangle_surface = x * y;
     let object_area = match objects {
@@ -19,23 +19,25 @@ pub fn area_fit(
     object_area * times <= rectangle_surface
 }
 
-pub fn volume_fit(
-	x: usize,
-	y: usize,
-	z: usize,
-	objects: areas_volumes::GeometricalVolumes,
-	times: usize,
-	a: usize,
-	b: usize,
-	c: usize,
-) -> bool {
-    let box_volume = x * y * z;
-    let object_volume = match objects {
-        GeometricalVolumes::Cube => cube_volume(a),
-        GeometricalVolumes::Sphere => sphere_volume(a) as usize,
-        GeometricalVolumes::Cone => cone_volume(a, b) as usize,
-        GeometricalVolumes::Pyramid => triangular_pyramid_volume(a as f64, b) as usize,
-        GeometricalVolumes::Parallelepiped => parallelepiped_volume(a, b, c),
+pub struct FitParams {
+    x: usize,
+    y: usize,
+    z: usize,
+    objects: areas_volumes::GeometricalVolumes,
+    times: usize,
+    a: usize,
+    b: usize,
+    c: usize,
+}
+
+pub fn volume_fit(params: FitParams) -> bool {
+    let box_volume = params.x * params.y * params.z;
+    let object_volume = match params.objects {
+        GeometricalVolumes::Cube => cube_volume(params.a),
+        GeometricalVolumes::Sphere => sphere_volume(params.a) as usize,
+        GeometricalVolumes::Cone => cone_volume(params.a, params.b) as usize,
+        GeometricalVolumes::Pyramid => triangular_pyramid_volume(params.a as f64, params.b) as usize,
+        GeometricalVolumes::Parallelepiped => parallelepiped_volume(params.a, params.b, params.c),
     };
-    object_volume * times <= box_volume
+    object_volume * params.times <= box_volume
 }

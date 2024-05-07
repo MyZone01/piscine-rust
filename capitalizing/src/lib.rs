@@ -13,7 +13,7 @@ pub fn capitalize_first(input: &str) -> String {
     if input.is_empty() {
         return input.to_string();
     }
-    input.chars().next().unwrap().to_uppercase().to_string() + &input[1..].to_string()
+    input.chars().next().unwrap().to_uppercase().to_string() + &input[1..]
 }
 
 pub fn title_case(input: &str) -> String {

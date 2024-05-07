@@ -30,7 +30,7 @@ impl Mob {
             .map(|m| m.role.clone() as u32)
             .sum::<u32>();
 
-        if self_power < other_power || self_power == other_power {
+        if self_power <= other_power {
             self.members.pop();
         } else {
             other.members.pop();

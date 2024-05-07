@@ -4,20 +4,20 @@ pub fn mean(numbers: &Vec<i32>) -> f64 {
         result += *num as f64;
     }
 
-    result = result / numbers.len() as f64;
+    result /= numbers.len() as f64;
 
-    return result;
+    result
 }
 
-pub fn median(numbers: &Vec<i32>) -> i32 {
-    let mut sorted_numbers = numbers.clone();
+pub fn median(numbers: &[i32]) -> i32 {
+    let mut sorted_numbers = numbers.to_vec(); // Change the type to Vec<i32>
     sorted_numbers.sort();
     let length = sorted_numbers.len();
 
     if length % 2 == 0 {
-        return (sorted_numbers[length / 2 - 1] + sorted_numbers[length / 2]) / 2;
+        (sorted_numbers[length / 2 - 1] + sorted_numbers[length / 2]) / 2
     } else {
-        return sorted_numbers[length / 2];
+        sorted_numbers[length / 2]
     }
 }
 
@@ -36,5 +36,5 @@ pub fn mode(numbers: &Vec<i32>) -> i32 {
         }
     }
 
-    return max_index as i32;
+    max_index as i32
 }

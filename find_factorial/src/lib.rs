@@ -23,10 +23,10 @@ pub fn factorial_recursive_with_if(num: u64) -> u64 {
 }
 
 pub fn factorial_recursive_with_match(num: u64) -> u64 {
-    return match num {
+    match num {
         0 => 1,
         _ => num * factorial_recursive_with_match(num - 1),
-    };
+    }
 }
 
 pub fn factorial_fold(num: u64) -> u64 {

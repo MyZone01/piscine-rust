@@ -69,6 +69,5 @@ pub fn cut_or_raise(mall: &mut Mall) {
     }
 }
 fn quatre_chiffres_apres_virgule(f: f64) -> f64 {
-    let chiffres = format!("{:.4}", f).parse::<f64>().unwrap_or(0.0);
-    chiffres
+    format!("{:.4}", f).parse::<f64>().unwrap_or(0.0)
 }

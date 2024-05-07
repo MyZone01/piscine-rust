@@ -5,14 +5,14 @@ pub fn arrange_phrase(phrase: &str) -> String {
     words.iter().for_each(|word| {
         res.push(word.to_string());
         res.sort_by(|a, b| {
-            let a = a.chars().find(|c| c.is_digit(10)).unwrap();
-            let b = b.chars().find(|c| c.is_digit(10)).unwrap();
+            let a = a.chars().find(|c| c.is_ascii_digit()).unwrap();
+            let b = b.chars().find(|c| c.is_ascii_digit()).unwrap();
             a.cmp(&b)
         });
     });
 
     res.iter_mut().for_each(|word| {
-        *word = word.chars().filter(|c| !c.is_digit(10)).collect::<String>();
+        *word = word.chars().filter(|c| !c.is_ascii_digit()).collect::<String>();
     });
 
     res.join(" ").to_string()
