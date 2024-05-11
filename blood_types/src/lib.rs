@@ -187,31 +187,15 @@ impl Debug for BloodType {
 
 impl BloodType {
     pub fn can_receive_from(&self, other: &Self) -> bool {
-        let antigens_compatible = if let (Antigen::A, Antigen::A) | (Antigen::A, Antigen::O) =
-            (self.antigen.clone(), other.antigen.clone())
-        {
-            true
-        } else if let (Antigen::B, Antigen::B) | (Antigen::B, Antigen::O) =
-            (self.antigen.clone(), other.antigen.clone())
-        {
-            true
-        } else if let Antigen::AB = self.antigen.clone() {
-            true
-        } else if let Antigen::O = self.antigen.clone() {
-            true
-        } else {
-            false
-        };
-
-        let rh_compatible = if let (RhFactor::Positive, RhFactor::Positive) =
-            (self.rh_factor.clone(), other.rh_factor.clone())
-        {
-            true
-        } else {
-            self.rh_factor == RhFactor::Negative && other.rh_factor == RhFactor::Negative
-        };
-
-        antigens_compatible && rh_compatible
+        (match self.antigen {
+            Antigen::A => matches!(other.antigen, Antigen::A | Antigen::O),
+            Antigen::B => matches!(other.antigen, Antigen::B | Antigen::O),
+            Antigen::AB => true,
+            Antigen::O => matches!(other.antigen, Antigen::O),
+        }) && match self.rh_factor {
+            RhFactor::Positive => true,
+            RhFactor::Negative => other.rh_factor == RhFactor::Negative,
+        }
     }
 
     pub fn donors(&self) -> Vec<Self> {
