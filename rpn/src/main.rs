@@ -1,9 +1,3 @@
-fn main() {
-    let args: Vec<String> = std::env::args().collect();
-
-    rpn(&args[1]);
-}
-
 // ## rpn
 
 // ### Instructions
@@ -71,12 +65,9 @@ fn main() {
 // Error
 // ```
 
-fn rpn(s: &str) {
-    let mut stack: Vec<i64> = Vec::new();
-    let mut error = false;
-    let tokens = s.split_whitespace();
-
-    for token in tokens {
+pub fn rpn(s: &str) {
+    let mut stack = Vec::new();
+    for token in s.split_whitespace() {
         match token {
             "+" => {
                 let b = stack.pop().unwrap();
@@ -103,21 +94,26 @@ fn rpn(s: &str) {
                 let a = stack.pop().unwrap();
                 stack.push(a % b);
             }
-            _ => match token.parse::<i64>() {
-                Ok(n) => stack.push(n),
-                Err(_) => {
-                    error = true;
-                    break;
+            _ => {
+                if let Ok(n) = token.parse::<i64>() {
+                    stack.push(n);
+                } else {
+                    println!("Error");
+                    return;
                 }
-            },
+            }
         }
     }
 
-    println!("{:?} {} {}", stack, error, s);
-
-    if error || stack.len() != 1 {
-        println!("Error");
-    } else {
+    if stack.len() == 1 && !stack.is_empty() {
         println!("{}", stack[0]);
+    } else {
+        println!("Error");
     }
+}
+
+fn main() {
+    let args: Vec<String> = std::env::args().collect();
+
+    rpn(&args[1]);
 }

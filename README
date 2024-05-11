@@ -27,17 +27,17 @@ Exercises:
 
 | Name                                                                          |                                                                     Code |
 | :---------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
-| [scalar](../public/subjects/scalar/README.md)                                 |                 [click to go to the code](./solutions/scalar/src/lib.rs) |
-| [temperature_conv](../public/subjects/temperature_conv/README.md)             |       [click to go to the code](./solutions/temperature_conv/src/lib.rs) |
-| [speed_transformation](../public/subjects/speed_transformation/README.md)     |   [click to go to the code](./solutions/speed_transformation/src/lib.rs) |
-| [looping](../public/subjects/looping/README.md)                               |               [click to go to the code](./solutions/looping/src/main.rs) |
-| [groceries](../public/subjects/groceries/README.md)                           |              [click to go to the code](./solutions/groceries/src/lib.rs) |
-| [reverse_string](../public/subjects/reverse_string/README.md)                 |         [click to go to the code](./solutions/reverse_string/src/lib.rs) |
-| [find_factorial](../public/subjects/find_factorial/README.md)                 |         [click to go to the code](./solutions/find_factorial/src/lib.rs) |
-| [fibonacci2](../public/subjects/fibonacci2/README.md)                         |             [click to go to the code](./solutions/fibonacci2/src/lib.rs) |
-| [matrix_transposition](../public/subjects/matrix_transposition/README.md)     |   [click to go to the code](./solutions/matrix_transposition/src/lib.rs) |
-| [division_and_remainder](../public/subjects/division_and_remainder/README.md) | [click to go to the code](./solutions/division_and_remainder/src/lib.rs) |
-| [tuples_refs](../public/subjects/tuples_refs/README.md)                       |            [click to go to the code](./solutions/tuples_refs/src/lib.rs) |
+| [scalar](../../public/subjects/scalar/README.md)                                 |                 [click to go to the code](./solutions/scalar/src/lib.rs) |
+| [temperature_conv](../../public/subjects/temperature_conv/README.md)             |       [click to go to the code](./solutions/temperature_conv/src/lib.rs) |
+| [speed_transformation](../../public/subjects/speed_transformation/README.md)     |   [click to go to the code](./solutions/speed_transformation/src/lib.rs) |
+| [looping](../../public/subjects/looping/README.md)                               |               [click to go to the code](./solutions/looping/src/main.rs) |
+| [groceries](../../public/subjects/groceries/README.md)                           |              [click to go to the code](./solutions/groceries/src/lib.rs) |
+| [reverse_string](../../public/subjects/reverse_string/README.md)                 |         [click to go to the code](./solutions/reverse_string/src/lib.rs) |
+| [find_factorial](../../public/subjects/find_factorial/README.md)                 |         [click to go to the code](./solutions/find_factorial/src/lib.rs) |
+| [fibonacci2](../../public/subjects/fibonacci2/README.md)                         |             [click to go to the code](./solutions/fibonacci2/src/lib.rs) |
+| [matrix_transposition](../../public/subjects/matrix_transposition/README.md)     |   [click to go to the code](./solutions/matrix_transposition/src/lib.rs) |
+| [division_and_remainder](../../public/subjects/division_and_remainder/README.md) | [click to go to the code](./solutions/division_and_remainder/src/lib.rs) |
+| [tuples_refs](../../public/subjects/tuples_refs/README.md)                       |            [click to go to the code](./solutions/tuples_refs/src/lib.rs) |
 
 ### Quest 02-rust
 
@@ -47,16 +47,16 @@ Exercices:
 
 | Name                                                                            |                                                                      Code |
 | :------------------------------------------------------------------------------ | ------------------------------------------------------------------------: |
-| [borrow](../public/subjects/borrow/README.md)                                   |                  [click to go to the code](./solutions/borrow/src/lib.rs) |
-| [doubtful](../public/subjects/doubtful/README.md)                               |                [click to go to the code](./solutions/doubtful/src/lib.rs) |
-| [to_url](../public/subjects/to_url/README.md)                                   |                  [click to go to the code](./solutions/to_url/src/lib.rs) |
-| [string_literals](../public/subjects/string_literals/README.md)                 |         [click to go to the code](./solutions/string_literals/src/lib.rs) |
-| [name_initials](../public/subjects/name_initials/README.md)                     |           [click to go to the code](./solutions/name_initials/src/lib.rs) |
-| [ownership](../public/subjects/ownership/README.md)                             |               [click to go to the code](./solutions/ownership/src/lib.rs) |
-| [copy](../public/subjects/copy/README.md)                                       |                    [click to go to the code](./solutions/copy/src/lib.rs) |
-| [borrow_me_the_reference](../public/subjects/borrow_me_the_reference/README.md) | [click to go to the code](./solutions/borrow_me_the_reference/src/lib.rs) |
-| [tic_tac_toe](../public/subjects/tic_tac_toe/README.md)                         |             [click to go to the code](./solutions/tic_tac_toe/src/lib.rs) |
-| [arrange_it](../public/subjects/arrange_it/README.md)                           |              [click to go to the code](./solutions/arrange_it/src/lib.rs) |
+| [borrow](../../public/subjects/borrow/README.md)                                   |                  [click to go to the code](./solutions/borrow/src/lib.rs) |
+| [doubtful](../../public/subjects/doubtful/README.md)                               |                [click to go to the code](./solutions/doubtful/src/lib.rs) |
+| [to_url](../../public/subjects/to_url/README.md)                                   |                  [click to go to the code](./solutions/to_url/src/lib.rs) |
+| [string_literals](../../public/subjects/string_literals/README.md)                 |         [click to go to the code](./solutions/string_literals/src/lib.rs) |
+| [name_initials](../../public/subjects/name_initials/README.md)                     |           [click to go to the code](./solutions/name_initials/src/lib.rs) |
+| [ownership](../../public/subjects/ownership/README.md)                             |               [click to go to the code](./solutions/ownership/src/lib.rs) |
+| [copy](../../public/subjects/copy/README.md)                                       |                    [click to go to the code](./solutions/copy/src/lib.rs) |
+| [borrow_me_the_reference](../../public/subjects/borrow_me_the_reference/README.md) | [click to go to the code](./solutions/borrow_me_the_reference/src/lib.rs) |
+| [tic_tac_toe](../../public/subjects/tic_tac_toe/README.md)                         |             [click to go to the code](./solutions/tic_tac_toe/src/lib.rs) |
+| [arrange_it](../../public/subjects/arrange_it/README.md)                           |              [click to go to the code](./solutions/arrange_it/src/lib.rs) |
 
 ### Quest 03-rust
 
@@ -66,18 +66,18 @@ Exercices:
 
 | Name                                                                  |                                                                 Code |
 | :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
-| [changes](../public/subjects/changes/README.md)                       |            [click to go to the code](./solutions/changes/src/lib.rs) |
-| [circle](../public/subjects/circle/README.md)                         |             [click to go to the code](./solutions/circle/src/lib.rs) |
-| [card_deck](../public/subjects/card_deck/README.md)                   |          [click to go to the code](./solutions/card_deck/src/lib.rs) |
-| [arrays](../public/subjects/arrays/README.md)                         |             [click to go to the code](./solutions/arrays/src/lib.rs) |
-| [strings](../public/subjects/strings/README.md)                       |            [click to go to the code](./solutions/strings/src/lib.rs) |
-| [capitalizing](../public/subjects/capitalizing/README.md)             |       [click to go to the code](./solutions/capitalizing/src/lib.rs) |
-| [edit_distance](../public/subjects/edit_distance/README.md)           |      [click to go to the code](./solutions/edit_distance/src/lib.rs) |
-| [simple_hash](../public/subjects/simple_hash/README.md)               |        [click to go to the code](./solutions/simple_hash/src/lib.rs) |
-| [bigger](../public/subjects/bigger/README.md)                         |             [click to go to the code](./solutions/bigger/src/lib.rs) |
-| [string_permutation](../public/subjects/string_permutation/README.md) | [click to go to the code](./solutions/string_permutation/src/lib.rs) |
-| [hashing](../public/subjects/hashing/README.md)                       |            [click to go to the code](./solutions/hashing/src/lib.rs) |
-| [collect](../public/subjects/collect/README.md)                       |            [click to go to the code](./solutions/collect/src/lib.rs) |
+| [changes](../../public/subjects/changes/README.md)                       |            [click to go to the code](./solutions/changes/src/lib.rs) |
+| [circle](../../public/subjects/circle/README.md)                         |             [click to go to the code](./solutions/circle/src/lib.rs) |
+| [card_deck](../../public/subjects/card_deck/README.md)                   |          [click to go to the code](./solutions/card_deck/src/lib.rs) |
+| [arrays](../../public/subjects/arrays/README.md)                         |             [click to go to the code](./solutions/arrays/src/lib.rs) |
+| [strings](../../public/subjects/strings/README.md)                       |            [click to go to the code](./solutions/strings/src/lib.rs) |
+| [capitalizing](../../public/subjects/capitalizing/README.md)             |       [click to go to the code](./solutions/capitalizing/src/lib.rs) |
+| [edit_distance](../../public/subjects/edit_distance/README.md)           |      [click to go to the code](./solutions/edit_distance/src/lib.rs) |
+| [simple_hash](../../public/subjects/simple_hash/README.md)               |        [click to go to the code](./solutions/simple_hash/src/lib.rs) |
+| [bigger](../../public/subjects/bigger/README.md)                         |             [click to go to the code](./solutions/bigger/src/lib.rs) |
+| [string_permutation](../../public/subjects/string_permutation/README.md) | [click to go to the code](./solutions/string_permutation/src/lib.rs) |
+| [hashing](../../public/subjects/hashing/README.md)                       |            [click to go to the code](./solutions/hashing/src/lib.rs) |
+| [collect](../../public/subjects/collect/README.md)                       |            [click to go to the code](./solutions/collect/src/lib.rs) |
 
 ### Exam 01-rust
 
@@ -85,16 +85,16 @@ Exercices:
 
 | Name                                                                          |                                                                     Code |
 | :---------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
-| [division_and_remainder](../public/subjects/division_and_remainder/README.md) | [click to go to the code](./solutions/division_and_remainder/src/lib.rs) |
-| [matrix_transposition](../public/subjects/matrix_transposition/README.md)     |   [click to go to the code](./solutions/matrix_transposition/src/lib.rs) |
-| [reverse_it](../public/subjects/reverse_it/README.md)                         |             [click to go to the code](./solutions/reverse_it/src/lib.rs) |
-| [bigger](../public/subjects/bigger/README.md)                                 |                 [click to go to the code](./solutions/bigger/src/lib.rs) |
-| [capitalizing](../public/subjects/capitalizing/README.md)                     |           [click to go to the code](./solutions/capitalizing/src/lib.rs) |
-| [counting_words](../public/subjects/counting_words/README.md)                 |         [click to go to the code](./solutions/counting_words/src/lib.rs) |
-| [partial_sums](../public/subjects/partial_sums/README.md)                     |           [click to go to the code](./solutions/partial_sums/src/lib.rs) |
-| [inv_pyramid](../public/subjects/inv_pyramid/README.md)                       |            [click to go to the code](./solutions/inv_pyramid/src/lib.rs) |
-| [insertion_sort](../public/subjects/insertion_sort/README.md)                 |         [click to go to the code](./solutions/insertion_sort/src/lib.rs) |
-| [rpn](../public/subjects/rpn/README.md)                                       |                    [click to go to the code](./solutions/rpn/src/lib.rs) |
+| [division_and_remainder](../../public/subjects/division_and_remainder/README.md) | [click to go to the code](./solutions/division_and_remainder/src/lib.rs) |
+| [matrix_transposition](../../public/subjects/matrix_transposition/README.md)     |   [click to go to the code](./solutions/matrix_transposition/src/lib.rs) |
+| [reverse_it](../../public/subjects/reverse_it/README.md)                         |             [click to go to the code](./solutions/reverse_it/src/lib.rs) |
+| [bigger](../../public/subjects/bigger/README.md)                                 |                 [click to go to the code](./solutions/bigger/src/lib.rs) |
+| [capitalizing](../../public/subjects/capitalizing/README.md)                     |           [click to go to the code](./solutions/capitalizing/src/lib.rs) |
+| [counting_words](../../public/subjects/counting_words/README.md)                 |         [click to go to the code](./solutions/counting_words/src/lib.rs) |
+| [partial_sums](../../public/subjects/partial_sums/README.md)                     |           [click to go to the code](./solutions/partial_sums/src/lib.rs) |
+| [inv_pyramid](../../public/subjects/inv_pyramid/README.md)                       |            [click to go to the code](./solutions/inv_pyramid/src/lib.rs) |
+| [insertion_sort](../../public/subjects/insertion_sort/README.md)                 |         [click to go to the code](./solutions/insertion_sort/src/lib.rs) |
+| [rpn](../../public/subjects/rpn/README.md)                                       |                    [click to go to the code](./solutions/rpn/src/lib.rs) |
 
 
 ### Raid 01-rust
@@ -103,7 +103,7 @@ Exercice:
 
 | Name                                            |                                                      Code |
 | :---------------------------------------------- | --------------------------------------------------------: |
-| [drawing](../public/subjects/drawing/README.md) | [click to go to the code](./solutions/drawing/src/lib.rs) |
+| [drawing](../../public/subjects/drawing/README.md) | [click to go to the code](./solutions/drawing/src/lib.rs) |
 
 ---
 
@@ -117,15 +117,15 @@ Exercices:
 
 | Name                                                              |                                                               Code |
 | :---------------------------------------------------------------- | -----------------------------------------------------------------: |
-| [unwrap_or_expect](../public/subjects/unwrap_or_expect/README.md) | [click to go to the code](./solutions/unwrap_or_expect/src/lib.rs) |
-| [panic](../public/subjects/panic/README.md)                       |            [click to go to the code](./solutions/panic/src/lib.rs) |
-| [handling](../public/subjects/handling/README.md)                 |         [click to go to the code](./solutions/handling/src/lib.rs) |
-| [profanity_filter](../public/subjects/profanity_filter/README.md) | [click to go to the code](./solutions/profanity_filter/src/lib.rs) |
-| [question_mark](../public/subjects/question_mark/README.md)       |    [click to go to the code](./solutions/question_mark/src/lib.rs) |
-| [banner](../public/subjects/banner/README.md)                     |           [click to go to the code](./solutions/banner/src/lib.rs) |
-| [cipher](../public/subjects/cipher/README.md)                     |           [click to go to the code](./solutions/cipher/src/lib.rs) |
-| [error_types](../public/subjects/error_types/README.md)           |      [click to go to the code](./solutions/error_types/src/lib.rs) |
-| [boxing_todo](../public/subjects/boxing_todo/README.md)           |      [click to go to the code](./solutions/boxing_todo/src/lib.rs) |
+| [unwrap_or_expect](../../public/subjects/unwrap_or_expect/README.md) | [click to go to the code](./solutions/unwrap_or_expect/src/lib.rs) |
+| [panic](../../public/subjects/panic/README.md)                       |            [click to go to the code](./solutions/panic/src/lib.rs) |
+| [handling](../../public/subjects/handling/README.md)                 |         [click to go to the code](./solutions/handling/src/lib.rs) |
+| [profanity_filter](../../public/subjects/profanity_filter/README.md) | [click to go to the code](./solutions/profanity_filter/src/lib.rs) |
+| [question_mark](../../public/subjects/question_mark/README.md)       |    [click to go to the code](./solutions/question_mark/src/lib.rs) |
+| [banner](../../public/subjects/banner/README.md)                     |           [click to go to the code](./solutions/banner/src/lib.rs) |
+| [cipher](../../public/subjects/cipher/README.md)                     |           [click to go to the code](./solutions/cipher/src/lib.rs) |
+| [error_types](../../public/subjects/error_types/README.md)           |      [click to go to the code](./solutions/error_types/src/lib.rs) |
+| [boxing_todo](../../public/subjects/boxing_todo/README.md)           |      [click to go to the code](./solutions/boxing_todo/src/lib.rs) |
 
 ### Quest 05-rust
 
@@ -135,12 +135,12 @@ Exercices:
 
 | Name                                                                |                                                                Code |
 | :------------------------------------------------------------------ | ------------------------------------------------------------------: |
-| [middle_day](../public/subjects/middle_day/README.md)               |        [click to go to the code](./solutions/middle_day/src/lib.rs) |
-| [does_it_fit](../public/subjects/does_it_fit/README.md)             |       [click to go to the code](./solutions/does_it_fit/src/lib.rs) |
-| [macro_calculator](../public/subjects/macro_calculator/README.md)   |  [click to go to the code](./solutions/macro_calculator/src/lib.rs) |
-| [shopping_mall](../public/subjects/shopping_mall/README.md)         |     [click to go to the code](./solutions/shopping_mall/src/lib.rs) |
-| [expected_variable](../public/subjects/expected_variable/README.md) | [click to go to the code](./solutions/expected_variable/src/lib.rs) |
-| [mobs](../public/subjects/mobs/README.md)                           |              [click to go to the code](./solutions/mobs/src/lib.rs) |
+| [middle_day](../../public/subjects/middle_day/README.md)               |        [click to go to the code](./solutions/middle_day/src/lib.rs) |
+| [does_it_fit](../../public/subjects/does_it_fit/README.md)             |       [click to go to the code](./solutions/does_it_fit/src/lib.rs) |
+| [macro_calculator](../../public/subjects/macro_calculator/README.md)   |  [click to go to the code](./solutions/macro_calculator/src/lib.rs) |
+| [shopping_mall](../../public/subjects/shopping_mall/README.md)         |     [click to go to the code](./solutions/shopping_mall/src/lib.rs) |
+| [expected_variable](../../public/subjects/expected_variable/README.md) | [click to go to the code](./solutions/expected_variable/src/lib.rs) |
+| [mobs](../../public/subjects/mobs/README.md)                           |              [click to go to the code](./solutions/mobs/src/lib.rs) |
 
 ### Exam 02-rust
 
@@ -148,21 +148,21 @@ Exercices:
 
 | Name                                                                  |                                                                 Code |
 | :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
-| [previousprime](../public/subjects/previousprime/README.md)           |      [click to go to the code](./solutions/previousprime/src/lib.rs) |
-| [nextprime](../public/subjects/nextprime/README.md)                   |          [click to go to the code](./solutions/nextprime/src/lib.rs) |
-| [reverse_it](../public/subjects/reverse_it/README.md)                 |         [click to go to the code](./solutions/reverse_it/src/lib.rs) |
-| [find_factorial](../public/subjects/find_factorial/README.md)         |     [click to go to the code](./solutions/find_factorial/src/lib.rs) |
-| [fibonacci2](../public/subjects/fibonacci2/README.md)                 |         [click to go to the code](./solutions/fibonacci2/src/lib.rs) |
-| [copy](../public/subjects/copy/README.md)                             |               [click to go to the code](./solutions/copy/src/lib.rs) |
-| [matrix_determinant](../public/subjects/matrix_determinant/README.md) | [click to go to the code](./solutions/matrix_determinant/src/lib.rs) |
-| [profanity_filter](../public/subjects/profanity_filter/README.md)     |   [click to go to the code](./solutions/profanity_filter/src/lib.rs) |
-| [question_mark](../public/subjects/question_mark/README.md)           |      [click to go to the code](./solutions/question_mark/src/lib.rs) |
-| [talking](../public/subjects/talking/README.md)                       |            [click to go to the code](./solutions/talking/src/lib.rs) |
-| [rot21](../public/subjects/rot21/README.md)                           |              [click to go to the code](./solutions/rot21/src/lib.rs) |
-| [order_books](../public/subjects/order_books/README.md)               |        [click to go to the code](./solutions/order_books/src/lib.rs) |
-| [cipher](../public/subjects/cipher/README.md)                         |             [click to go to the code](./solutions/cipher/src/lib.rs) |
-| [queens](../public/subjects/queens/README.md)                         |             [click to go to the code](./solutions/queens/src/lib.rs) |
-| [scytale_cipher](../public/subjects/scytale_cipher/README.md)         |     [click to go to the code](./solutions/scytale_cipher/src/lib.rs) |
+| [previousprime](../../public/subjects/previousprime/README.md)           |      [click to go to the code](./solutions/previousprime/src/lib.rs) |
+| [nextprime](../../public/subjects/nextprime/README.md)                   |          [click to go to the code](./solutions/nextprime/src/lib.rs) |
+| [reverse_it](../../public/subjects/reverse_it/README.md)                 |         [click to go to the code](./solutions/reverse_it/src/lib.rs) |
+| [find_factorial](../../public/subjects/find_factorial/README.md)         |     [click to go to the code](./solutions/find_factorial/src/lib.rs) |
+| [fibonacci2](../../public/subjects/fibonacci2/README.md)                 |         [click to go to the code](./solutions/fibonacci2/src/lib.rs) |
+| [copy](../../public/subjects/copy/README.md)                             |               [click to go to the code](./solutions/copy/src/lib.rs) |
+| [matrix_determinant](../../public/subjects/matrix_determinant/README.md) | [click to go to the code](./solutions/matrix_determinant/src/lib.rs) |
+| [profanity_filter](../../public/subjects/profanity_filter/README.md)     |   [click to go to the code](./solutions/profanity_filter/src/lib.rs) |
+| [question_mark](../../public/subjects/question_mark/README.md)           |      [click to go to the code](./solutions/question_mark/src/lib.rs) |
+| [talking](../../public/subjects/talking/README.md)                       |            [click to go to the code](./solutions/talking/src/lib.rs) |
+| [rot21](../../public/subjects/rot21/README.md)                           |              [click to go to the code](./solutions/rot21/src/lib.rs) |
+| [order_books](../../public/subjects/order_books/README.md)               |        [click to go to the code](./solutions/order_books/src/lib.rs) |
+| [cipher](../../public/subjects/cipher/README.md)                         |             [click to go to the code](./solutions/cipher/src/lib.rs) |
+| [queens](../../public/subjects/queens/README.md)                         |             [click to go to the code](./solutions/queens/src/lib.rs) |
+| [scytale_cipher](../../public/subjects/scytale_cipher/README.md)         |     [click to go to the code](./solutions/scytale_cipher/src/lib.rs) |
 
 ### Raid 02-rust
 
@@ -170,7 +170,7 @@ Exercice:
 
 | Name                                                                |                                                                Code |
 | :------------------------------------------------------------------ | ------------------------------------------------------------------: |
-| [road_intersection](../public/subjects/road_intersection/README.md) | [click to go to the code](./solutions/road_intersection/src/lib.rs) |
+| [road_intersection](../../public/subjects/road_intersection/README.md) | [click to go to the code](./solutions/road_intersection/src/lib.rs) |
 
 ---
 
@@ -184,22 +184,22 @@ Exercices:
 
 | Name                                                                  |                                                                 Code |
 | :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
-| [generics](../public/subjects/generics/README.md)                     |           [click to go to the code](./solutions/generics/src/lib.rs) |
-| [traits](../public/subjects/traits/README.md)                         |             [click to go to the code](./solutions/traits/src/lib.rs) |
-| [lifetimes](../public/subjects/lifetimes/README.md)                   |          [click to go to the code](./solutions/lifetimes/src/lib.rs) |
-| [lalgebra_scalar](../public/subjects/lalgebra_scalar/README.md)       |    [click to go to the code](./solutions/lalgebra_scalar/src/lib.rs) |
-| [matrix](../public/subjects/matrix/README.md)                         |             [click to go to the code](./solutions/matrix/src/lib.rs) |
-| [matrix_ops](../public/subjects/matrix_ops/README.md)                 |         [click to go to the code](./solutions/matrix_ops/src/lib.rs) |
-| [matrix_mult](../public/subjects/matrix_mult/README.md)               |        [click to go to the code](./solutions/matrix_mult/src/lib.rs) |
-| [lalgebra_vector](../public/subjects/lalgebra_vector/README.md)       |    [click to go to the code](./solutions/lalgebra_vector/src/lib.rs) |
-| [blood_types](../public/subjects/blood_types/README.md)               |        [click to go to the code](./solutions/blood_types/src/lib.rs) |
-| [border_cross](../public/subjects/border_cross/README.md)             |       [click to go to the code](./solutions/border_cross/src/lib.rs) |
-| [roman_numbers](../public/subjects/roman_numbers/README.md)           |      [click to go to the code](./solutions/roman_numbers/src/lib.rs) |
-| [roman_numbers_iter](../public/subjects/roman_numbers_iter/README.md) | [click to go to the code](./solutions/roman_numbers_iter/src/lib.rs) |
-| [vectors_operations](../public/subjects/vector_operations/README.md)  |  [click to go to the code](./solutions/vector_operations/src/lib.rs) |
-| [events](../public/subjects/events/README.md)                         |             [click to go to the code](./solutions/events/src/lib.rs) |
-| [delete_prefix](../public/subjects/delete_prefix/README.md)           |      [click to go to the code](./solutions/delete_prefix/src/lib.rs) |
-| [commits_stats](../public/subjects/commits_stats/README.md)           |      [click to go to the code](./solutions/commits_stats/src/lib.rs) |
+| [generics](../../public/subjects/generics/README.md)                     |           [click to go to the code](./solutions/generics/src/lib.rs) |
+| [traits](../../public/subjects/traits/README.md)                         |             [click to go to the code](./solutions/traits/src/lib.rs) |
+| [lifetimes](../../public/subjects/lifetimes/README.md)                   |          [click to go to the code](./solutions/lifetimes/src/lib.rs) |
+| [lalgebra_scalar](../../public/subjects/lalgebra_scalar/README.md)       |    [click to go to the code](./solutions/lalgebra_scalar/src/lib.rs) |
+| [matrix](../../public/subjects/matrix/README.md)                         |             [click to go to the code](./solutions/matrix/src/lib.rs) |
+| [matrix_ops](../../public/subjects/matrix_ops/README.md)                 |         [click to go to the code](./solutions/matrix_ops/src/lib.rs) |
+| [matrix_mult](../../public/subjects/matrix_mult/README.md)               |        [click to go to the code](./solutions/matrix_mult/src/lib.rs) |
+| [lalgebra_vector](../../public/subjects/lalgebra_vector/README.md)       |    [click to go to the code](./solutions/lalgebra_vector/src/lib.rs) |
+| [blood_types](../../public/subjects/blood_types/README.md)               |        [click to go to the code](./solutions/blood_types/src/lib.rs) |
+| [border_cross](../../public/subjects/border_cross/README.md)             |       [click to go to the code](./solutions/border_cross/src/lib.rs) |
+| [roman_numbers](../../public/subjects/roman_numbers/README.md)           |      [click to go to the code](./solutions/roman_numbers/src/lib.rs) |
+| [roman_numbers_iter](../../public/subjects/roman_numbers_iter/README.md) | [click to go to the code](./solutions/roman_numbers_iter/src/lib.rs) |
+| [vectors_operations](../../public/subjects/vector_operations/README.md)  |  [click to go to the code](./solutions/vector_operations/src/lib.rs) |
+| [events](../../public/subjects/events/README.md)                         |             [click to go to the code](./solutions/events/src/lib.rs) |
+| [delete_prefix](../../public/subjects/delete_prefix/README.md)           |      [click to go to the code](./solutions/delete_prefix/src/lib.rs) |
+| [commits_stats](../../public/subjects/commits_stats/README.md)           |      [click to go to the code](./solutions/commits_stats/src/lib.rs) |
 
 
 ### Quest 07-rust
@@ -210,12 +210,12 @@ Exercices:
 
 | Name                                                                    |                                                                  Code |
 | :---------------------------------------------------------------------- | --------------------------------------------------------------------: |
-| [box_it](../public/subjects/box_it/README.md)                           |              [click to go to the code](./solutions/box_it/src/lib.rs) |
-| [borrow_box](../public/subjects/borrow_box/README.md)                   |          [click to go to the code](./solutions/borrow_box/src/lib.rs) |
-| [box_recursion](../public/subjects/box_recursion/README.md)             |       [click to go to the code](./solutions/box_recursion/src/lib.rs) |
-| [how_many_references](../public/subjects/how_many_references/README.md) | [click to go to the code](./solutions/how_many_references/src/lib.rs) |
-| [ref_cell](../public/subjects/ref_cell/README.md)                       |            [click to go to the code](./solutions/ref_cell/src/lib.rs) |
-| [drop_the_thread](../public/subjects/drop_the_thread/README.md)         |     [click to go to the code](./solutions/drop_the_thread/src/lib.rs) |
+| [box_it](../../public/subjects/box_it/README.md)                           |              [click to go to the code](./solutions/box_it/src/lib.rs) |
+| [borrow_box](../../public/subjects/borrow_box/README.md)                   |          [click to go to the code](./solutions/borrow_box/src/lib.rs) |
+| [box_recursion](../../public/subjects/box_recursion/README.md)             |       [click to go to the code](./solutions/box_recursion/src/lib.rs) |
+| [how_many_references](../../public/subjects/how_many_references/README.md) | [click to go to the code](./solutions/how_many_references/src/lib.rs) |
+| [ref_cell](../../public/subjects/ref_cell/README.md)                       |            [click to go to the code](./solutions/ref_cell/src/lib.rs) |
+| [drop_the_thread](../../public/subjects/drop_the_thread/README.md)         |     [click to go to the code](./solutions/drop_the_thread/src/lib.rs) |
 
 ### Exam 03-rust
 
@@ -223,34 +223,34 @@ Exercices:
 
 | Name                                                              |                                                    Code |
 | :---------------------------------------------------------------- | ------------------------------------------------------: |
-| [counting_words](../public/subjects/counting_words/README.md)     |   [Voir le code](./solutions/counting_words/src/lib.rs) |
-| [partial_sums](../public/subjects/partial_sums/README.md)         |     [Voir le code](./solutions/partial_sums/src/lib.rs) |
-| [inv_pyramid](../public/subjects/inv_pyramid/README.md)           |      [Voir le code](./solutions/inv_pyramid/src/lib.rs) |
-| [previousprime](../public/subjects/previousprime/README.md)       |    [Voir le code](./solutions/previousprime/src/lib.rs) |
-| [nextprime](../public/subjects/nextprime/README.md)               |        [Voir le code](./solutions/nextprime/src/lib.rs) |
-| [reverse_it](../public/subjects/reverse_it/README.md)             |       [Voir le code](./solutions/reverse_it/src/lib.rs) |
-| [profanity_filter](../public/subjects/profanity_filter/README.md) | [Voir le code](./solutions/profanity_filter/src/lib.rs) |
-| [question_mark](../public/subjects/question_mark/README.md)       |    [Voir le code](./solutions/question_mark/src/lib.rs) |
-| [talking](../public/subjects/talking/README.md)                   |          [Voir le code](./solutions/talking/src/lib.rs) |
-| [spelling](../public/subjects/spelling/README.md)                 |         [Voir le code](./solutions/spelling/src/lib.rs) |
-| [rpn](../public/subjects/rpn/README.md)                           |              [Voir le code](./solutions/rpn/src/lib.rs) |
-| [queens](../public/subjects/queens/README.md)                     |           [Voir le code](./solutions/queens/src/lib.rs) |
-| [scytale_cipher](../public/subjects/scytale_cipher/README.md)     |   [Voir le code](./solutions/scytale_cipher/src/lib.rs) |
-| [roman_numbers](../public/subjects/roman_numbers/README.md)       |    [Voir le code](./solutions/roman_numbers/src/lib.rs) |
-| [matrix_display](../public/subjects/matrix_display/README.md)     |   [Voir le code](./solutions/matrix_display/src/lib.rs) |
-| [generics_list](../public/subjects/generics_list/README.md)       |    [Voir le code](./solutions/generics_list/src/lib.rs) |
-| [box_recursion](../public/subjects/box_recursion/README.md)       |    [Voir le code](./solutions/box_recursion/src/lib.rs) |
-| [commits_stats](../public/subjects/commits_stats/README.md)       |    [Voir le code](./solutions/commits_stats/src/lib.rs) |
-| [blood_types_s](../public/subjects/blood_types_s/README.md)       |    [Voir le code](./solutions/blood_types_s/src/lib.rs) |
-| [ref_cell](../public/subjects/ref_cell/README.md)                 |         [Voir le code](./solutions/ref_cell/src/lib.rs) |
-| [drop_the_thread](../public/subjects/drop_the_thread/README.md)   |  [Voir le code](./solutions/drop_the_thread/src/lib.rs) |
-| [lunch_queue](../public/subjects/lunch_queue/README.md)           |      [Voir le code](./solutions/lunch_queue/src/lib.rs) |
+| [counting_words](../../public/subjects/counting_words/README.md)     |   [Voir le code](./counting_words/src/lib.rs) |
+| [partial_sums](../../public/subjects/partial_sums/README.md)         |     [Voir le code](./partial_sums/src/lib.rs) |
+| [inv_pyramid](../../public/subjects/inv_pyramid/README.md)           |      [Voir le code](./inv_pyramid/src/lib.rs) |
+| [previousprime](../../public/subjects/previousprime/README.md)       |    [Voir le code](./previousprime/src/lib.rs) |
+| [nextprime](../../public/subjects/nextprime/README.md)               |        [Voir le code](./nextprime/src/lib.rs) |
+| [reverse_it](../../public/subjects/reverse_it/README.md)             |       [Voir le code](./reverse_it/src/lib.rs) |
+| [profanity_filter](../../public/subjects/profanity_filter/README.md) | [Voir le code](./profanity_filter/src/lib.rs) |
+| [question_mark](../../public/subjects/question_mark/README.md)       |    [Voir le code](./question_mark/src/lib.rs) |
+| [talking](../../public/subjects/talking/README.md)                   |          [Voir le code](./talking/src/lib.rs) |
+| [spelling](../../public/subjects/spelling/README.md)                 |         [Voir le code](./spelling/src/lib.rs) |
+| [rpn](../../public/subjects/rpn/README.md)                           |              [Voir le code](./rpn/src/lib.rs) |
+| [queens](../../public/subjects/queens/README.md)                     |           [Voir le code](./queens/src/lib.rs) |
+| [scytale_cipher](../../public/subjects/scytale_cipher/README.md)     |   [Voir le code](./scytale_cipher/src/lib.rs) |
+| [roman_numbers](../../public/subjects/roman_numbers/README.md)       |    [Voir le code](./roman_numbers/src/lib.rs) |
+| [matrix_display](../../public/subjects/matrix_display/README.md)     |   [Voir le code](./matrix_display/src/lib.rs) |
+| [generics_list](../../public/subjects/generics_list/README.md)       |    [Voir le code](./generics_list/src/lib.rs) |
+| [box_recursion](../../public/subjects/box_recursion/README.md)       |    [Voir le code](./box_recursion/src/lib.rs) |
+| [commits_stats](../../public/subjects/commits_stats/README.md)       |    [Voir le code](./commits_stats/src/lib.rs) |
+| [blood_types_s](../../public/subjects/blood_types_s/README.md)       |    [Voir le code](./blood_types_s/src/lib.rs) |
+| [ref_cell](../../public/subjects/ref_cell/README.md)                 |         [Voir le code](./ref_cell/src/lib.rs) |
+| [drop_the_thread](../../public/subjects/drop_the_thread/README.md)   |  [Voir le code](./drop_the_thread/src/lib.rs) |
+| [lunch_queue](../../public/subjects/lunch_queue/README.md)           |      [Voir le code](./lunch_queue/src/lib.rs) |
 
 
 ### Project 01-rust
 
 Exercice:
-|[chaikin](../public/subjects/chaikin/README.md)|[click to go to the code](./solutions/chaikin/src/lib.rs)|
+|[chaikin](../../public/subjects/chaikin/README.md)|[click to go to the code](./solutions/chaikin/src/lib.rs)|
 
 ---
 
@@ -264,16 +264,16 @@ Exercices:
 
 | Name                                                          |                                                             Code |
 | :------------------------------------------------------------ | ---------------------------------------------------------------: |
-| [closures](../public/subjects/closures/README.md)             |       [click to go to the code](./solutions/closures/src/lib.rs) |
-| [sales](../public/subjects/sales/README.md)                   |          [click to go to the code](./solutions/sales/src/lib.rs) |
-| [adding](../public/subjects/adding/README.md)                 |         [click to go to the code](./solutions/adding/src/lib.rs) |
-| [adding_twice](../public/subjects/adding_twice/README.md)     |   [click to go to the code](./solutions/adding_twice/src/lib.rs) |
-| [get_products](../public/subjects/get_products/README.md)     |   [click to go to the code](./solutions/get_products/src/lib.rs) |
-| [highest](../public/subjects/highest/README.md)               |        [click to go to the code](./solutions/highest/src/lib.rs) |
-| [iterators](../public/subjects/iterators/README.md)           |      [click to go to the code](./solutions/iterators/src/lib.rs) |
-| [slices_to_map](../public/subjects/slices_to_map/README.md)   |  [click to go to the code](./solutions/slices_to_map/src/lib.rs) |
-| [step_iterator](../public/subjects/step_iterator/README.md)   |  [click to go to the code](./solutions/step_iterator/src/lib.rs) |
-| [project_motion](../public/subjects/project_motion/README.md) | [click to go to the code](./solutions/project_motion/src/lib.rs) |
+| [closures](../../public/subjects/closures/README.md)             |       [click to go to the code](./solutions/closures/src/lib.rs) |
+| [sales](../../public/subjects/sales/README.md)                   |          [click to go to the code](./solutions/sales/src/lib.rs) |
+| [adding](../../public/subjects/adding/README.md)                 |         [click to go to the code](./solutions/adding/src/lib.rs) |
+| [adding_twice](../../public/subjects/adding_twice/README.md)     |   [click to go to the code](./solutions/adding_twice/src/lib.rs) |
+| [get_products](../../public/subjects/get_products/README.md)     |   [click to go to the code](./solutions/get_products/src/lib.rs) |
+| [highest](../../public/subjects/highest/README.md)               |        [click to go to the code](./solutions/highest/src/lib.rs) |
+| [iterators](../../public/subjects/iterators/README.md)           |      [click to go to the code](./solutions/iterators/src/lib.rs) |
+| [slices_to_map](../../public/subjects/slices_to_map/README.md)   |  [click to go to the code](./solutions/slices_to_map/src/lib.rs) |
+| [step_iterator](../../public/subjects/step_iterator/README.md)   |  [click to go to the code](./solutions/step_iterator/src/lib.rs) |
+| [project_motion](../../public/subjects/project_motion/README.md) | [click to go to the code](./solutions/project_motion/src/lib.rs) |
 
 ### Quest 09-rust
 
@@ -283,16 +283,16 @@ Exercices:
 
 | Name                                                              |                                                               Code |
 | :---------------------------------------------------------------- | -----------------------------------------------------------------: |
-| [stars](../public/subjects/stars/README.md)                       |            [click to go to the code](./solutions/stars/src/lib.rs) |
-| [ordinal](../public/subjects/ordinal/README.md)                   |          [click to go to the code](./solutions/ordinal/src/lib.rs) |
-| [pangram](../public/subjects/pangram/README.md)                   |          [click to go to the code](./solutions/pangram/src/lib.rs) |
-| [diamond_creation](../public/subjects/diamond_creation/README.md) | [click to go to the code](./solutions/diamond_creation/src/lib.rs) |
-| [scores](../public/subjects/scores/README.md)                     |           [click to go to the code](./solutions/scores/src/lib.rs) |
-| [talking](../public/subjects/talking/README.md)                   |          [click to go to the code](./solutions/talking/src/lib.rs) |
-| [searching](../public/subjects/searching/README.md)               |        [click to go to the code](./solutions/searching/src/lib.rs) |
-| [logic_number](../public/subjects/logic_number/README.md)         |     [click to go to the code](./solutions/logic_number/src/lib.rs) |
-| [rot](../public/subjects/rot/README.md)                           |              [click to go to the code](./solutions/rot/src/lib.rs) |
-| [pig_latin](../public/subjects/pig_latin/README.md)               |        [click to go to the code](./solutions/pig_latin/src/lib.rs) |
-| [spelling](../public/subjects/spelling/README.md)                 |         [click to go to the code](./solutions/spelling/src/lib.rs) |
-| [rgb_match](../public/subjects/rgb_match/README.md)               |        [click to go to the code](./solutions/rgb_match/src/lib.rs) |
+| [stars](../../public/subjects/stars/README.md)                       |            [click to go to the code](./solutions/stars/src/lib.rs) |
+| [ordinal](../../public/subjects/ordinal/README.md)                   |          [click to go to the code](./solutions/ordinal/src/lib.rs) |
+| [pangram](../../public/subjects/pangram/README.md)                   |          [click to go to the code](./solutions/pangram/src/lib.rs) |
+| [diamond_creation](../../public/subjects/diamond_creation/README.md) | [click to go to the code](./solutions/diamond_creation/src/lib.rs) |
+| [scores](../../public/subjects/scores/README.md)                     |           [click to go to the code](./solutions/scores/src/lib.rs) |
+| [talking](../../public/subjects/talking/README.md)                   |          [click to go to the code](./solutions/talking/src/lib.rs) |
+| [searching](../../public/subjects/searching/README.md)               |        [click to go to the code](./solutions/searching/src/lib.rs) |
+| [logic_number](../../public/subjects/logic_number/README.md)         |     [click to go to the code](./solutions/logic_number/src/lib.rs) |
+| [rot](../../public/subjects/rot/README.md)                           |              [click to go to the code](./solutions/rot/src/lib.rs) |
+| [pig_latin](../../public/subjects/pig_latin/README.md)               |        [click to go to the code](./solutions/pig_latin/src/lib.rs) |
+| [spelling](../../public/subjects/spelling/README.md)                 |         [click to go to the code](./solutions/spelling/src/lib.rs) |
+| [rgb_match](../../public/subjects/rgb_match/README.md)               |        [click to go to the code](./solutions/rgb_match/src/lib.rs) |
 

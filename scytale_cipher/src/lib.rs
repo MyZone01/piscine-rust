@@ -34,6 +34,9 @@
 // "scytale Code" size=6 -> "sec yCtoadle"
 // "scytale Code" size=8 -> "sCcoydtea l e"
 // $
+// (len / i).ceil() * i
+// {:<width$}
+// skip j step by i
 
 pub fn scytale_cipher(message: String, i: u32) -> String {
     let padded_message = format!(

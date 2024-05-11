@@ -71,12 +71,9 @@ pub fn parts_sums(arr: &[u64]) -> Vec<u64> {
     let mut result = Vec::new();
     let mut sum = arr.iter().sum();
     result.push(sum);
-    arr.iter()
-        .rev()
-        .map(|num| {
-            sum -= num;
-            result.push(sum);
-        })
-        .count();
+    arr.iter().rev().for_each(|num| {
+        sum -= num;
+        result.push(sum);
+    });
     result
 }

@@ -98,7 +98,6 @@ pub fn inv_pyramid(v: String, i: u32) -> Vec<String> {
     let mut v = v.clone();
     for _ in 0..i {
         res.push(format!("{:1$}", v, spaces));
-        // use concatenation to avoid cloning
         v = v.clone() + &v;
         spaces -= 1;
     }
