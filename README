@@ -25,8 +25,8 @@ Video: https://www.youtube.com/watch?v=gjGzMMUdKDM
 
 Exercises:
 
-| Name                                                                          |                                                                     Code |
-| :---------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
+| Name                                                                             |                                                                     Code |
+| :------------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
 | [scalar](../../public/subjects/scalar/README.md)                                 |                 [click to go to the code](./solutions/scalar/src/lib.rs) |
 | [temperature_conv](../../public/subjects/temperature_conv/README.md)             |       [click to go to the code](./solutions/temperature_conv/src/lib.rs) |
 | [speed_transformation](../../public/subjects/speed_transformation/README.md)     |   [click to go to the code](./solutions/speed_transformation/src/lib.rs) |
@@ -45,8 +45,8 @@ Video: https://www.youtube.com/watch?v=O0o19HANB_w
 
 Exercices:
 
-| Name                                                                            |                                                                      Code |
-| :------------------------------------------------------------------------------ | ------------------------------------------------------------------------: |
+| Name                                                                               |                                                                      Code |
+| :--------------------------------------------------------------------------------- | ------------------------------------------------------------------------: |
 | [borrow](../../public/subjects/borrow/README.md)                                   |                  [click to go to the code](./solutions/borrow/src/lib.rs) |
 | [doubtful](../../public/subjects/doubtful/README.md)                               |                [click to go to the code](./solutions/doubtful/src/lib.rs) |
 | [to_url](../../public/subjects/to_url/README.md)                                   |                  [click to go to the code](./solutions/to_url/src/lib.rs) |
@@ -64,8 +64,8 @@ Video: https://www.youtube.com/watch?v=URAJIouRd0I
 
 Exercices:
 
-| Name                                                                  |                                                                 Code |
-| :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
+| Name                                                                     |                                                                 Code |
+| :----------------------------------------------------------------------- | -------------------------------------------------------------------: |
 | [changes](../../public/subjects/changes/README.md)                       |            [click to go to the code](./solutions/changes/src/lib.rs) |
 | [circle](../../public/subjects/circle/README.md)                         |             [click to go to the code](./solutions/circle/src/lib.rs) |
 | [card_deck](../../public/subjects/card_deck/README.md)                   |          [click to go to the code](./solutions/card_deck/src/lib.rs) |
@@ -83,8 +83,8 @@ Exercices:
 
 Exercices:
 
-| Name                                                                          |                                                                     Code |
-| :---------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
+| Name                                                                             |                                                                     Code |
+| :------------------------------------------------------------------------------- | -----------------------------------------------------------------------: |
 | [division_and_remainder](../../public/subjects/division_and_remainder/README.md) | [click to go to the code](./solutions/division_and_remainder/src/lib.rs) |
 | [matrix_transposition](../../public/subjects/matrix_transposition/README.md)     |   [click to go to the code](./solutions/matrix_transposition/src/lib.rs) |
 | [reverse_it](../../public/subjects/reverse_it/README.md)                         |             [click to go to the code](./solutions/reverse_it/src/lib.rs) |
@@ -101,8 +101,8 @@ Exercices:
 
 Exercice:
 
-| Name                                            |                                                      Code |
-| :---------------------------------------------- | --------------------------------------------------------: |
+| Name                                               |                                                      Code |
+| :------------------------------------------------- | --------------------------------------------------------: |
 | [drawing](../../public/subjects/drawing/README.md) | [click to go to the code](./solutions/drawing/src/lib.rs) |
 
 ---
@@ -115,8 +115,8 @@ Video: https://www.youtube.com/watch?v=3D0mOw0egHc
 
 Exercices:
 
-| Name                                                              |                                                               Code |
-| :---------------------------------------------------------------- | -----------------------------------------------------------------: |
+| Name                                                                 |                                                               Code |
+| :------------------------------------------------------------------- | -----------------------------------------------------------------: |
 | [unwrap_or_expect](../../public/subjects/unwrap_or_expect/README.md) | [click to go to the code](./solutions/unwrap_or_expect/src/lib.rs) |
 | [panic](../../public/subjects/panic/README.md)                       |            [click to go to the code](./solutions/panic/src/lib.rs) |
 | [handling](../../public/subjects/handling/README.md)                 |         [click to go to the code](./solutions/handling/src/lib.rs) |
@@ -133,8 +133,8 @@ Video: https://www.youtube.com/watch?v=XyUliQD7v-0
 
 Exercices:
 
-| Name                                                                |                                                                Code |
-| :------------------------------------------------------------------ | ------------------------------------------------------------------: |
+| Name                                                                   |                                                                Code |
+| :--------------------------------------------------------------------- | ------------------------------------------------------------------: |
 | [middle_day](../../public/subjects/middle_day/README.md)               |        [click to go to the code](./solutions/middle_day/src/lib.rs) |
 | [does_it_fit](../../public/subjects/does_it_fit/README.md)             |       [click to go to the code](./solutions/does_it_fit/src/lib.rs) |
 | [macro_calculator](../../public/subjects/macro_calculator/README.md)   |  [click to go to the code](./solutions/macro_calculator/src/lib.rs) |
@@ -146,8 +146,8 @@ Exercices:
 
 Exercices:
 
-| Name                                                                  |                                                                 Code |
-| :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
+| Name                                                                     |                                                                 Code |
+| :----------------------------------------------------------------------- | -------------------------------------------------------------------: |
 | [previousprime](../../public/subjects/previousprime/README.md)           |      [click to go to the code](./solutions/previousprime/src/lib.rs) |
 | [nextprime](../../public/subjects/nextprime/README.md)                   |          [click to go to the code](./solutions/nextprime/src/lib.rs) |
 | [reverse_it](../../public/subjects/reverse_it/README.md)                 |         [click to go to the code](./solutions/reverse_it/src/lib.rs) |
@@ -168,8 +168,8 @@ Exercices:
 
 Exercice:
 
-| Name                                                                |                                                                Code |
-| :------------------------------------------------------------------ | ------------------------------------------------------------------: |
+| Name                                                                   |                                                                Code |
+| :--------------------------------------------------------------------- | ------------------------------------------------------------------: |
 | [road_intersection](../../public/subjects/road_intersection/README.md) | [click to go to the code](./solutions/road_intersection/src/lib.rs) |
 
 ---
@@ -182,8 +182,8 @@ Video: https://www.youtube.com/watch?v=xCEDVb4p7Js
 
 Exercices:
 
-| Name                                                                  |                                                                 Code |
-| :-------------------------------------------------------------------- | -------------------------------------------------------------------: |
+| Name                                                                     |                                                                 Code |
+| :----------------------------------------------------------------------- | -------------------------------------------------------------------: |
 | [generics](../../public/subjects/generics/README.md)                     |           [click to go to the code](./solutions/generics/src/lib.rs) |
 | [traits](../../public/subjects/traits/README.md)                         |             [click to go to the code](./solutions/traits/src/lib.rs) |
 | [lifetimes](../../public/subjects/lifetimes/README.md)                   |          [click to go to the code](./solutions/lifetimes/src/lib.rs) |
@@ -208,8 +208,8 @@ Video: https://www.youtube.com/watch?v=jzgKZTtVNwQ
 
 Exercices:
 
-| Name                                                                    |                                                                  Code |
-| :---------------------------------------------------------------------- | --------------------------------------------------------------------: |
+| Name                                                                       |                                                                  Code |
+| :------------------------------------------------------------------------- | --------------------------------------------------------------------: |
 | [box_it](../../public/subjects/box_it/README.md)                           |              [click to go to the code](./solutions/box_it/src/lib.rs) |
 | [borrow_box](../../public/subjects/borrow_box/README.md)                   |          [click to go to the code](./solutions/borrow_box/src/lib.rs) |
 | [box_recursion](../../public/subjects/box_recursion/README.md)             |       [click to go to the code](./solutions/box_recursion/src/lib.rs) |
@@ -221,8 +221,8 @@ Exercices:
 
 Exercices:
 
-| Name                                                              |                                                    Code |
-| :---------------------------------------------------------------- | ------------------------------------------------------: |
+| Name                                                                 |                                          Code |
+| :------------------------------------------------------------------- | --------------------------------------------: |
 | [counting_words](../../public/subjects/counting_words/README.md)     |   [Voir le code](./counting_words/src/lib.rs) |
 | [partial_sums](../../public/subjects/partial_sums/README.md)         |     [Voir le code](./partial_sums/src/lib.rs) |
 | [inv_pyramid](../../public/subjects/inv_pyramid/README.md)           |      [Voir le code](./inv_pyramid/src/lib.rs) |
@@ -262,8 +262,8 @@ Video: https://www.youtube.com/watch?v=sdEEmmlI6K0
 
 Exercices:
 
-| Name                                                          |                                                             Code |
-| :------------------------------------------------------------ | ---------------------------------------------------------------: |
+| Name                                                             |                                                             Code |
+| :--------------------------------------------------------------- | ---------------------------------------------------------------: |
 | [closures](../../public/subjects/closures/README.md)             |       [click to go to the code](./solutions/closures/src/lib.rs) |
 | [sales](../../public/subjects/sales/README.md)                   |          [click to go to the code](./solutions/sales/src/lib.rs) |
 | [adding](../../public/subjects/adding/README.md)                 |         [click to go to the code](./solutions/adding/src/lib.rs) |
@@ -281,8 +281,8 @@ Video: https://www.youtube.com/watch?v=LMOcoPamcxM
 
 Exercices:
 
-| Name                                                              |                                                               Code |
-| :---------------------------------------------------------------- | -----------------------------------------------------------------: |
+| Name                                                                 |                                                               Code |
+| :------------------------------------------------------------------- | -----------------------------------------------------------------: |
 | [stars](../../public/subjects/stars/README.md)                       |            [click to go to the code](./solutions/stars/src/lib.rs) |
 | [ordinal](../../public/subjects/ordinal/README.md)                   |          [click to go to the code](./solutions/ordinal/src/lib.rs) |
 | [pangram](../../public/subjects/pangram/README.md)                   |          [click to go to the code](./solutions/pangram/src/lib.rs) |
@@ -296,3 +296,39 @@ Exercices:
 | [spelling](../../public/subjects/spelling/README.md)                 |         [click to go to the code](./solutions/spelling/src/lib.rs) |
 | [rgb_match](../../public/subjects/rgb_match/README.md)               |        [click to go to the code](./solutions/rgb_match/src/lib.rs) |
 
+### Final Exam rust
+
+Exercices:
+
+| Name                                                                             |                                                                  Code |
+| :------------------------------------------------------------------------------- | --------------------------------------------------------------------: |
+| [division_and_remainder](../../public/subjects/division_and_remainder/README.md) | [click to go the code](./solutions/division_and_remainder/src/lib.rs) |
+| [find_factorial](../../public/subjects/find_factorial/README.md)                 |         [click to go the code](./solutions/find_factorial/src/lib.rs) |
+| [matrix_transposition](../../public/subjects/matrix_transposition/README.md)     |   [click to go the code](./solutions/matrix_transposition/src/lib.rs) |
+| [reverse_it](../../public/subjects/reverse_it/README.md)                         |             [click to go the code](./solutions/reverse_it/src/lib.rs) |
+| [counting_words](../../public/subjects/counting_words/README.md)                 |         [click to go the code](./solutions/counting_words/src/lib.rs) |
+| [bigger](../../public/subjects/bigger/README.md)                                 |                 [click to go the code](./solutions/bigger/src/lib.rs) |
+| [capitalizing](../../public/subjects/capitalizing/README.md)                     |           [click to go the code](./solutions/capitalizing/src/lib.rs) |
+| [partial_sums](../../public/subjects/partial_sums/README.md)                     |           [click to go the code](./solutions/partial_sums/src/lib.rs) |
+| [inv_pyramid](../../public/subjects/inv_pyramid/README.md)                       |            [click to go the code](./solutions/inv_pyramid/src/lib.rs) |
+| [previousprime](../../public/subjects/previousprime/README.md)                   |          [click to go the code](./solutions/previousprime/src/lib.rs) |
+| [nextprime](../../public/subjects/nextprime/README.md)                           |              [click to go the code](./solutions/nextprime/src/lib.rs) |
+| [profanity_filter](../../public/subjects/profanity_filter/README.md)             |       [click to go the code](./solutions/profanity_filter/src/lib.rs) |
+| [cipher](../../public/subjects/cipher/README.md)                                 |                 [click to go the code](./solutions/cipher/src/lib.rs) |
+| [scytale_cipher](../../public/subjects/scytale_cipher/README.md)                 |         [click to go the code](./solutions/scytale_cipher/src/lib.rs) |
+| [insertion_sort](../../public/subjects/insertion_sort/README.md)                 |         [click to go the code](./solutions/insertion_sort/src/lib.rs) |
+| [rpn](../../public/subjects/rpn/README.md)                                       |                    [click to go the code](./solutions/rpn/src/lib.rs) |
+| [rot21](../../public/subjects/rot21/README.md)                                   |                  [click to go the code](./solutions/rot21/src/lib.rs) |
+| [order_books](../../public/subjects/order_books/README.md)                       |            [click to go the code](./solutions/order_books/src/lib.rs) |
+| [matrix_determinant](../../public/subjects/matrix_determinant/README.md)         |     [click to go the code](./solutions/matrix_determinant/src/lib.rs) |
+| [roman_numbers](../../public/subjects/roman_numbers/README.md)                   |          [click to go the code](./solutions/roman_numbers/src/lib.rs) |
+| [blood_types_s](../../public/subjects/blood_types_s/README.md)                   |          [click to go the code](./solutions/blood_types_s/src/lib.rs) |
+| [matrix_display](../../public/subjects/matrix_display/README.md)                 |         [click to go the code](./solutions/matrix_display/src/lib.rs) |
+| [queens](../../public/subjects/queens/README.md)                                 |                 [click to go the code](./solutions/queens/src/lib.rs) |
+| [lunch_queue](../../public/subjects/lunch_queue/README.md)                       |            [click to go the code](./solutions/lunch_queue/src/lib.rs) |
+| [drop_the_thread](../../public/subjects/drop_the_thread/README.md)               |        [click to go the code](./solutions/drop_the_thread/src/lib.rs) |
+| [filter_table](../../public/subjects/filter_table/README.md)                     |           [click to go the code](./solutions/filter_table/src/lib.rs) |
+| [display_table](../../public/subjects/display_table/README.md)                   |          [click to go the code](./solutions/display_table/src/lib.rs) |
+| [flat_tree](../../public/subjects/flat_tree/README.md)                           |              [click to go the code](./solutions/flat_tree/src/lib.rs) |
+| [brackets_matching](../../public/subjects/brackets_matching/README.md)           |      [click to go the code](./solutions/brackets_matching/src/lib.rs) |
+| [brain_fuck](../../public/subjects/brain_fuck/README.md)                         |             [click to go the code](./solutions/brain_fuck/src/lib.rs) |
