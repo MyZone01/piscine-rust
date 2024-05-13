@@ -39,12 +39,10 @@ pub fn change_case(input: &str) -> String {
     let mut result = String::new();
 
     for c in input.chars() {
-        if c.is_lowercase() {
-            result.push(c.to_uppercase().next().unwrap());
-        } else if c.is_uppercase() {
-            result.push(c.to_lowercase().next().unwrap());
-        } else {
-            result.push(c);
+        match c {
+            c if c.is_lowercase() => result.push(c.to_uppercase().next().unwrap()),
+            c if c.is_uppercase() => result.push(c.to_lowercase().next().unwrap()),
+            _ => result.push(c),
         }
     }
 

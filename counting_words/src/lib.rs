@@ -53,14 +53,13 @@ use std::collections::HashMap;
 
 pub fn counting_words(words: &str) -> HashMap<String, u32> {
     let mut map = HashMap::new();
-    let binding = words.to_lowercase();
-    let words = binding.split(|c: char| !c.is_alphanumeric() && c != '\'');
+    let words = words.to_lowercase();
+    let words = words
+        .split(|c: char| !c.is_alphanumeric() && c != '\'')
+        .filter(|s| !s.is_empty());
     for word in words {
-        if word.is_empty() {
-            continue;
-        }
-        let count = map.entry(word.trim_matches('\'').to_string()).or_insert(0);
-        *count += 1;
+        *map.entry(word.to_string().trim_matches('\'').to_string())
+            .or_insert(0) += 1;
     }
     map
 }

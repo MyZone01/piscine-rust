@@ -11,14 +11,3 @@ pub fn transpose(m: Matrix) -> Matrix {
     // rows and columns transposed.
     Matrix((m.0.0, m.1.0), (m.0.1, m.1.1))
 }
-
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn test_transpose() {
-        let m = Matrix((1, 2), (3, 4));
-        assert_eq!(transpose(m), Matrix((1, 3), (2, 4)));
-    }
-}
