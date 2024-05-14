@@ -1,17 +1,22 @@
 use std::io::stdin;
 
+const SIZE: usize = 30000;
+
 fn main() {
     let args: Vec<String> = std::env::args().collect();
 
     brain_fuck(&args[1]);
 }
 
-pub fn brain_fuck(code: &str) {
-    let mut memory: [u8; 30000] = [0; 30000];
+fn brain_fuck(code: &str) {
     let code: Vec<char> = code.chars().collect();
+    let n = code.len();
+
+    let mut memory = [0u8; SIZE];
     let mut pointer: usize = 0;
     let mut i = 0;
-    while i < code.len() {
+
+    while i < n {
         let current = code[i];
         match current {
             '>' => pointer += 1,
@@ -20,8 +25,32 @@ pub fn brain_fuck(code: &str) {
             '-' => memory[pointer] -= 1,
             '.' => print!("{}", memory[pointer] as char),
             ',' => input(&pointer, &mut memory),
-            '[' => jump_past(&pointer, &memory, &code, &mut i),
-            ']' => jmp_back(&pointer, &memory, &code, &mut i),
+            '[' => {
+                let mut opened_bracket = 0;
+                if memory[pointer] == 0 {
+                    while code[i] != ']' || opened_bracket > 1 {
+                        if code[i] == '[' {
+                            opened_bracket += 1;
+                        } else if code[i] == ']' {
+                            opened_bracket -= 1;
+                        }
+                        i += 1;
+                    }
+                }
+            }
+            ']' => {
+                let mut opened_bracket = 0;
+                if memory[pointer] != 0 {
+                    while code[i] != '[' || opened_bracket > 1 {
+                        if code[i] == ']' {
+                            opened_bracket += 1;
+                        } else if code[i] == '[' {
+                            opened_bracket -= 1;
+                        }
+                        i -= 1;
+                    }
+                }
+            }
             _ => (),
         }
         i += 1;
@@ -30,44 +59,7 @@ pub fn brain_fuck(code: &str) {
 
 fn input(ptr: &usize, mem: &mut [u8]) {
     let mut input = String::new();
-    stdin().read_line(&mut input).expect("Incorrect input");
-
+    stdin().read_line(&mut input).expect("No");
     let input = input.chars().next().unwrap();
     mem[*ptr] = input as u8;
-}
-
-fn jump_past(pointer: &usize, memory: &[u8], code: &[char], i: &mut usize) {
-    if memory[*pointer] == 0 {
-        let mut non_closing_braces = 0;
-        for (j, &item) in code[*i + 1..].iter().enumerate() {
-            if item == '[' {
-                non_closing_braces += 1;
-            } else if item == ']' {
-                if non_closing_braces > 0 {
-                    non_closing_braces -= 1;
-                } else {
-                    *i = *i + 1 + j;
-                    break;
-                }
-            }
-        }
-    }
-}
-
-fn jmp_back(pointer: &usize, memory: &[u8], code: &[char], i: &mut usize) {
-    if memory[*pointer] != 0 {
-        let mut non_opening_braces = 0;
-        for (j, &item) in code[..*i].iter().rev().enumerate() {
-            if item == ']' {
-                non_opening_braces += 1;
-            } else if item == '[' {
-                if non_opening_braces > 0 {
-                    non_opening_braces -= 1;
-                } else {
-                    *i = *i - 1 - j;
-                    break;
-                }
-            }
-        }
-    }
 }

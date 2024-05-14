@@ -63,47 +63,47 @@ pub fn spell(n: u64) -> String {
     }
 
     while n > 0 {
-        let mut current = n % 1000;
+        let mut chunk = n % 1000;
         n /= 1000;
-        let mut current_str = String::new();
+        let mut chunk_str = String::new();
 
-        if current >= 100 {
-            current_str.push_str(units[(current / 100) as usize]);
-            current_str.push(' ');
-            current_str.push_str(hundreds[1]);
-            current_str.push(' ');
-            current %= 100;
+        if chunk >= 100 {
+            chunk_str.push_str(units[(chunk / 100) as usize]);
+            chunk_str.push_str(" ");
+            chunk_str.push_str(hundreds[1]);
+            chunk %= 100;
+            if chunk > 0 {
+                chunk_str.push_str(" ");
+            }
         }
 
-        if current >= 20 {
-            current_str.push_str(tens[(current / 10) as usize]);
-            current_str.push('-');
-            current %= 10;
+        if chunk >= 11 && chunk <= 19 {
+            chunk_str.push_str(teens[(chunk - 10) as usize]);
+        } else if chunk >= 20 {
+            chunk_str.push_str(tens[(chunk / 10) as usize]);
+            chunk %= 10;
+            if chunk > 0 {
+                chunk_str.push_str("-");
+            }
         }
 
-        if current >= 10 {
-            current_str.push_str(teens[(current % 10) as usize]);
-            current_str.push(' ');
-            current = 0;
+        if chunk > 0 && chunk < 10 {
+            chunk_str.push_str(units[chunk as usize]);
         }
 
-        if current > 0 {
-            current_str.push_str(units[current as usize]);
-            current_str.push(' ');
+        if i > 0 && chunk > 0 {
+            chunk_str.push_str(" ");
+            chunk_str.push_str(thousands[i]);
         }
 
-        if !current_str.is_empty() {
-            current_str.push_str(thousands[i]);
-            current_str.push(' ');
+        if !result.is_empty() && !chunk_str.is_empty() {
+            result = format!("{} {}", chunk_str, result);
+        } else {
+            result = format!("{}{}", chunk_str, result);
         }
 
-        result = current_str + &result;
         i += 1;
     }
 
-    if result.ends_with('-') {
-        result.pop();
-    }
-
-    result.trim().to_string()
+    result.trim().trim_matches('-').to_string()
 }
