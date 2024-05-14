@@ -54,7 +54,7 @@
 #[derive(Debug, PartialEq)]
 pub struct Matrix<T>(pub Vec<Vec<T>>);
 
-use std::ops::{Add, Sub, Mul};
+use std::ops::{Add, Mul, Sub};
 
 impl<T> Matrix<T> {
     pub fn number_of_cols(&self) -> usize {
@@ -76,7 +76,12 @@ impl<T> Matrix<T> {
 
 impl<T> Mul for Matrix<T>
 where
-    T: Clone + std::ops::Add<Output = T> + std::ops::Mul<Output = T> + std::ops::AddAssign + std::ops::MulAssign + std::ops::AddAssign,
+    T: Clone
+        + std::ops::Add<Output = T>
+        + std::ops::Mul<Output = T>
+        + std::ops::AddAssign
+        + std::ops::MulAssign
+        + std::ops::AddAssign,
 {
     type Output = Option<Matrix<T>>;
 
@@ -89,7 +94,11 @@ where
         for i in 0..self.number_of_rows() {
             let mut row = vec![];
             for j in 0..other.number_of_cols() {
-                let mut sum = self.row(i).iter().zip(other.col(j).iter()).fold(T::default(), |acc, (a, b)| acc + a.clone() * b.clone());
+                let mut sum = self
+                    .row(i)
+                    .iter()
+                    .zip(other.col(j).iter())
+                    .fold(T::default(), |acc, (a, b)| acc + a.clone() * b.clone());
                 row.push(sum);
             }
             result.push(row);
@@ -98,4 +107,3 @@ where
         Some(Matrix(result))
     }
 }
-
